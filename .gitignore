@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志和错误文件
+logs/*.log
+errors/*.html
+errors/*.png
+
+# 保留文件夹但忽略内容
+!logs/.gitkeep
+!errors/.gitkeep
+
+# Edge配置文件
+edge_profile_*/
+C:/temp/edge_profile_*/
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# 敏感配置（如果你创建了自定义配置）
+config.local.py
+settings.local.py
+
+# 测试文件
+.pytest_cache/
+.coverage
+htmlcov/
+

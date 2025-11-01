@@ -1,0 +1,26 @@
+# Selenium V2 座位预约系统依赖清单
+
+# 浏览器自动化
+selenium==4.15.2
+
+# 自动管理浏览器驱动（解决驱动版本更新问题）
+webdriver-manager==4.0.1
+
+# 验证码识别
+ddddocr==1.5.6
+opencv-python==4.8.1.78
+Pillow==10.1.0
+
+# HTTP请求（用于座位列表获取）
+aiohttp==3.9.1
+requests==2.31.0
+
+# 时区处理
+pytz==2023.3
+
+# 数据处理
+numpy==1.26.2
+
+# 配置管理
+pyyaml==6.0.1
+
